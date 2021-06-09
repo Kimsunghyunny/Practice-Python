@@ -22,6 +22,10 @@ print(dic['boy']) #소년 출력
 print(dic.get('student'))
 print(dic.get('student', '사전에 없는 단어 입니다.'))
 
+dic['girl'] = True # True를 통해서 dict 을 이용한 탐색도 가능하다.
+
 print(dic.keys())
 print(dic.values())
 print(dic.items())
+
+
